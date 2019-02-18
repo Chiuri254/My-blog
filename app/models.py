@@ -58,3 +58,11 @@ class BlogCom(db.Model):
     def save_blogcom(self):
         db.session.add(self)
         db.session.commit()
+
+# class Popular:
+    
+# 	def __init__(self, author, qoute):
+
+
+# 		self.author = author
+# 		self.qoute = qoute

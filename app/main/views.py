@@ -5,7 +5,7 @@ from .. import db,photos
 from flask_login import login_required, current_user
 from .forms import *
 import markdown2
-# from ..requests import  get_quotes
+from ..requests import  get_quotes
 
 
 
@@ -13,12 +13,21 @@ import markdown2
 @main.route('/')
 def index():
 
-    # myquote = get_quotes()
-    
-    # quotes = myquotes['quote']
-    # author = myquotes['author']
-    return render_template('index.html')
-    # ,quote =quote,author=author
+     return render_template('index.html')
+
+@main.route('/quotes', methods = ['GET','POST'])
+def quotes():
+
+    #  popular = get_quote('popular')
+
+    myquotes = get_quotes()
+
+    quotes = myquotes['quote']
+    author = myquotes['author']
+
+    return render_template('quotes.html',quote=quotes,author=author)
+
+
 
 @main.route('/blog', methods = ['GET','POST'])
 @login_required
