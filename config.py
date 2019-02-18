@@ -9,7 +9,7 @@ class Config:
     SIMPLEMDE_USE_CDN = True
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
-    # MOVIE_API_BASE_URL ='http://quotes.stormconsultancy.co.uk/random.json'
+    
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://joseph:pdatabase@localhost/blog'
 

@@ -18,8 +18,6 @@ def index():
 @main.route('/quotes', methods = ['GET','POST'])
 def quotes():
 
-    #  popular = get_quote('popular')
-
     myquotes = get_quotes()
 
     quotes = myquotes['quote']
