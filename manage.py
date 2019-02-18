@@ -25,5 +25,5 @@ migrate = Migrate(app, db)
 manager.add_command('db', MigrateCommand)
 
 if __name__ == '__main__':
-    app.secret_key = 'pasonalblog'
+    app.secret_key = 'Blog'
     manager.run()
