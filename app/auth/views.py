@@ -29,9 +29,9 @@ def register():
         db.session.add(user)
         db.session.commit()
         # session.permanent = True
-        mail_message("Welcome to watchlist","email/welcome_user",user.email,user=user)
-        return redirect(url_for('.login'))
-        flash('SUccesfully register please proceed to login')
+        # mail_message("Welcome to watchlist","email/welcome_user",user.email,user=user)
+        # return redirect(url_for('.login'))
+        # flash('SUccesfully register please proceed to login')
 
     title = "New Account created"
     return render_template('auth/register.html', title = title, registration_form = form)
