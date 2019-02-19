@@ -19,7 +19,7 @@ class UserModelTest(unittest.TestCase):
 
 
 def setUp(self):
-        self.user_brighton = User(username = 'joseph',password = 'password', email = 'joseshiory@gmail.com', bio = 'i am cool', profile_pic_path ='./static/photos/image.png' )
+        self.user_joseph = User(username = 'joseph',password = 'password', email = 'joseshiory@gmail.com', bio = 'i am cool', profile_pic_path ='./static/photos/image.png' )
         self.new_blog = Blog(blog_id=12345,blog='blog'user = self.user_joseph )
         self.new_blogcom = BlogCom(blog_id=12345,blog='blogcom'user = self.user_joseph )
 
