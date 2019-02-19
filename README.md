@@ -15,12 +15,12 @@ A personal blogging website where one can create and share your opinions and oth
      **Input Example**: Click on **Create blog** on the navigation bar
 
      **Output Example**: Redirected to a page with login form 
-
+<!-- 
 * The program should navigate to sing-up form 
 
      **Input Example**: Click on **Sign-up** on the navigation bar
 
-     **Output Example**: Redirected to the page with sign-up form
+     **Output Example**: Redirected to the page with sign-up form -->
 
 * The program should navigate to new blog form when New Blog is clicked on the navigation bar:
 
