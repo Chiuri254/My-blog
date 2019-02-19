@@ -16,7 +16,7 @@ A personal blogging website where one can create and share your opinions and oth
 
      **Output Example**: Redirected to a page with login form 
 
-<!-- * The program should navigate to sing-up form 
+* The program should navigate to sing-up form 
 
      **Input Example**: Click on **Sign-up** on the navigation bar
 
@@ -24,7 +24,7 @@ A personal blogging website where one can create and share your opinions and oth
 
 * The program should navigate to new blog form when New Blog is clicked on the navigation bar:
 
-    **Input Example**: Click on **New Blog** on the navigation bar -->
+    **Input Example**: Click on **New Blog** on the navigation bar
 
     **Output Example**: Redirected to the page with new blog form
 
